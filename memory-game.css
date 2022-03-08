@@ -1,0 +1,46 @@
+/* you can add to or change this. */
+
+header{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:block
+}
+
+.container {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  background-color: rgba(7, 132, 182, 0.877);
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+td.on {
+  background-color: orange;
+}
+
+#button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  align-content: center;
+}
